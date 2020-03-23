@@ -61,3 +61,12 @@ class driver
 		b1.display();
 	}
 }
+
+/* Sample Output :-
+
+Enter date of birth in dd,mm,yyyy format
+12 8 2020
+Date of birth : 12/8/2020
+Polio drops date : 27/9/2020
+
+*/
