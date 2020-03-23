@@ -1,3 +1,13 @@
+//Topic : ABSTRACTION
+/* Question :-
+
+Create the abstract class "ThreeDObject with the three dimensions as its protected 
+variables and wholesurfacearea() and volume() as its methods. Derive classes 
+"Box","Cube","Cylinder","Cone" from it and declare the two methods in each of the 
+derived classes to calculate volume and total surface area of each object.
+
+*/
+
 //box: area: 2(lb+bh+lh), vol: lbh
 //cube: area: 6a^2, vol: a^3
 //cylinder: area: 2pi*r*h+2pi*r^2, vol: pi*r^2*h
@@ -94,3 +104,19 @@ class driver
 		c3.volume();
 	}
 }
+
+/* Sample Output :-
+
+Surface area of Box : 32.0
+Volume of Box : 12.0
+
+Surface area of Cube : 24.0
+Volume of Cube : 8.0
+
+Surface area of Cylinder : 50.24
+Volume of Cylinder : 25.12
+
+Surface area of Cone : 30.322522343406074
+Volume of Cone : 8.373333333333333
+
+*/
